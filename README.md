@@ -1,4 +1,4 @@
 # BEM-VIVER
-Saimon Rafael
-Ana Paula
+Saimon Rafael,
+Ana Paula,
 Felipe Prata
