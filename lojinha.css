@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+
+}
+
+header {
+    background-color: cornflowerblue;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.botao-carrinho{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.produto{
+    background-color:antiquewhite;
+    border-radius: 15px;
+    padding: 12px;
+    text-align: center;
+    transition: all 0.5 ease;
+}
+
+.produto:hover {
+    background-color: rgb(255, 224, 186);
+    transform: scale(1.1);
+    transform: translateX(-10) scale(1.02);
+    box-shadow: 0 15px 30px rgb(0, 0, 0);
+}
+
+.produto img{
+    width: 90%;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.produto h2 {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.produto p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.botoes {
+    border: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color:antiquewhite;
+    color: white;
+}
+
+.carrinho {
+    position: fixed;
+    top: 120px;
+    right: 20px;
+    width: 260px;
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.carrinho h2{
+    margin-bottom: 10px;
+}
+
+.carrinho p{
+    font-size: 1rem;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.pesquisa {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pesquisa input {
+    padding: 8px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.pesquisa button {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.botao {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #0056b3;
+}
